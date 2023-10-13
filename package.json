@@ -1,0 +1,11 @@
+{
+  "name": "connect-server",
+  "scripts": {
+    "server:dev": "nodemon server.js",
+    "server:prod": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.4.1"
+  }
+}
